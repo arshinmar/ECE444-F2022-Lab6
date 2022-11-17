@@ -1,1 +1,8 @@
 # ECE444-F2022-Lab6
+
+### Unit Test
+https://github.com/ECE444-2022Fall/project-1-web-application-design-education-pathways-group-17-mergers/blob/14c1d756ccb9c232c51a14bfc22252e47895782f/Education_Pathways/tests/test_app.py#L199
+### What are the pros and cons of TDD?
+Test-driven development has multiple advantages. One notable advantage is how code is written in a manner that does not allow for the creation of unneeded features. Code is only written for specific testing scenarios, which allows the overall codebase to fully reflect customer use cases. Another advantage is how code is written in a modular fashion. For example, as code is written with individual tests in mind, code also becomes properly separated. This allows the codebase to become easy to check and follow. 
+
+Test-driven development also has some disadvantages. One observed disadvantage is how bugs and use cases cannot truly be replicated until used by the customer. Therefore, code may be written without the proper test cases in consideration. Furthermore, as time evolves, requirements change and use cases change. Instead of simply allowing the code to evolve, a team first has to modify tests and then the code, which adds significant time complexity. Finally, for TDD to be truly successful, all developers must adopt this mindset. In an organization though, some developers will have varying levels of preference with respect to usage of TDD. This can lead to a disconnect in terms of how code is written at the team.
